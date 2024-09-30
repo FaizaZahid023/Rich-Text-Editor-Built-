@@ -1,0 +1,33 @@
+
+.editor-container {
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .toolbar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .toolbar-button {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #eee;
+  }
+  
+  .editor {
+    padding: 10px;
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+  }
